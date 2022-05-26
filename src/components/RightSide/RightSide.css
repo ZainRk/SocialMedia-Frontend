@@ -12,7 +12,7 @@
 }
 
 
-.navIcons>img{
+.navIcons>img, .navIcons>a>img{
     width: 1.5rem;
     height: 1.5rem;
 }
