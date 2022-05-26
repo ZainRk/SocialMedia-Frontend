@@ -1,12 +1,13 @@
 import React from "react";
 import "./Auth.css";
 import Logo from "../../img/logo.png";
+import { Link } from "react-router-dom";
 
 const Auth = () => {
   return (
     <div className="Auth">
       <div className="a-left">
-        <img src={Logo} alt="" />
+        <Link to='/'><img src={Logo} alt="" /></Link>
         <div className="Webname">
           <h1>ZKC Media</h1>
           <h6>Explore the ideas throughout the world</h6>
