@@ -1,22 +1,22 @@
-import React from 'react'
-import PostSide from '../../components/PostSide/PostSide'
-import ProfileCard from '../../components/ProfileCard.jsx/ProfileCard'
-import ProfileLeft from '../../components/ProfileLeft/ProfileLeft'
-import RightSide from '../../components/RightSide/RightSide'
-import './Profile.css'
+import React from "react";
+import PostSide from "../../components/PostSide/PostSide";
+import ProfileCard from "../../components/ProfileCard.jsx/ProfileCard";
+import ProfileLeft from "../../components/ProfileLeft/ProfileLeft";
+import RightSide from "../../components/RightSide/RightSide";
+import "./Profile.css";
 const Profile = () => {
   return (
     <div className="Profile">
-        <ProfileLeft/>
+      <ProfileLeft />
 
-        <div className="Profile-center">
-            <ProfileCard/>
-            <PostSide/>
-        </div>
+      <div className="Profile-center">
+        <ProfileCard location="profilePage" />
+        <PostSide />
+      </div>
 
-        <RightSide/>
+      <RightSide />
     </div>
-  )
-}
+  );
+};
 
-export default Profile
+export default Profile;
